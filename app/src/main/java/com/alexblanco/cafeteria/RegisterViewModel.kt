@@ -13,8 +13,4 @@ class RegisterViewModel: ViewModel() {
     val password: String
         get() = _password
 
-
-    fun register(username: String, password: String){
-        LoginProvider.addUser(username, password)
-    }
 }

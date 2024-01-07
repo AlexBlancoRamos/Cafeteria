@@ -23,7 +23,7 @@ class RegisterActivity : AppCompatActivity() {
             val username = usernameEditText.text.toString()
             val password = passwordEditText.text.toString()
 
-            viewModel.register(username, password)
+            LoginProvider.addUser(username, password)
 
             startActivity(Intent(this, LoginActivity::class.java))
         }
