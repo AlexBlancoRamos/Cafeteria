@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/comidaFragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/fast_food_svgrepo_com"
+        android:title="Comida" />
+    <item
+        android:id="@+id/bebidaFragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/water"
+        android:title="Bebida" />
+    <item
+        android:id="@+id/pagarFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_euro_24"
+        android:title="Pagar" />
+</menu>

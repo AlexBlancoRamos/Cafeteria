@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/comidaFragment2">
+    <fragment
+        android:id="@+id/comidaFragment2"
+        android:name="com.alexblanco.cafeteria.ComidaFragment"
+        android:label="fragment_comida"
+        tools:layout="@layout/fragment_comida" />
+    <fragment
+        android:id="@+id/bebidaFragment2"
+        android:name="com.alexblanco.cafeteria.BebidaFragment"
+        android:label="fragment_bebida"
+        tools:layout="@layout/fragment_bebida" />
+    <fragment
+        android:id="@+id/pagarFragment"
+        android:name="com.alexblanco.cafeteria.PagarFragment"
+        android:label="fragment_pagar"
+        tools:layout="@layout/fragment_pagar" />
+</navigation>
